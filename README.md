@@ -11,6 +11,7 @@ This project is the simplest Baseband Processing board I plan so it has the high
 - FPGAConfigurationSubsystem - STM32 based circuit for bitstream loading & low speed communication with FPGA
 - USB interface - FT2232HL - FIFO to FPGA(for transmitting high-speed data) & UART to FPGAConfigurationSubsystem(for bitstream updates, flow triggering, and low speed data communication with FPGA)
 - USB-CDC interface of FPGAConfigurationSubsystem, alternatively can be used for bitstream updates
+- A lot other interfaces - there will be header with unused pins - for further use - interfaces like SPI, I2C, something really FASTT, whatever!
 
 ## Block diagram
 
